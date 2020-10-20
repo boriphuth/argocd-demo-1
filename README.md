@@ -1,5 +1,10 @@
 # argocd-demo
+
 ArgoDC Demo
+
+## VouTube List
+
+<https://www.youtube.com/playlist?list=PL34sAs7_26wMW4bWKnMIfEd87aPuw75by>
 
 ```bash
 kubectl create namespace argocd
@@ -15,11 +20,14 @@ kubectl get all
 ```
 
 ## [ Kube 85.3 ] Argo CD Continuous Deployment from Helm Repo
+
 ```bash
 helm repo add stable https://kubernetes-charts.storage.googleapis.com/
 helm repo list
 ```
+
 ## [ Kube 85.4 ] Argo CD Creating app using custom resource definition
+
 ```bash
 kubectl get node -o wide
 kubectl get all
